@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✧ Delilah ✧</title>
+  <meta name="description" content="Página personal de Delilah Said Madelaine Stella — futura ingeniera electrónica, artista y programadora.">
+  <meta name="theme-color" content="#050507">
+  <link rel="icon" href="img/star.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <div class="layout">
+
+    <!-- ===== PERFIL (fijo en escritorio, cabecera en móvil) ===== -->
+    <aside class="profile" aria-label="Perfil">
+      <div class="avatar-wrap">
+        <img src="img/avatar.png" onerror="this.onerror=null; this.src='img/placeholders/avatar.svg';" alt="Avatar de Delilah: dibujo de una chica de pelo largo oscuro abrazando un gato" class="avatar">
+        <span class="sparkle sparkle-1" aria-hidden="true">✦</span>
+        <span class="sparkle sparkle-2" aria-hidden="true">✧</span>
+        <span class="sparkle sparkle-3" aria-hidden="true">★</span>
+      </div>
+      <h1>Delilah Said Madelaine Stella</h1>
+      <p class="subtitle">✦ neurodivergente ✦ artista ✦ programadora ✦</p>
+      <p class="meta">she / her &nbsp;·&nbsp; 17 &nbsp;·&nbsp; Nicaragua</p>
+
+      <hr class="divider">
+      <div class="bio">
+        <p>Hola, soy <strong>Delilah Said Madelaine Stella</strong>. Una chica rara que le gusta <strong>pusheen.</strong> Soy una artista en desarrollo que le gusta todo tipo de arte, desde dibujo hasta escritura y musica. ademas me gusta la programacion, matematicas y las ingienerias!.</p>
+        <p>Soy Autista con altas capacidades, TDAH y Transtorno de procesamiento sensorial (auditivo, sensorial y vestibular.) Soy una Chica trans! ademas soy pansexual, asexual y demiromantica!</p>
+        <p>Este rincón de internet es mío: mis redes, mi arte y lo que voy aprendiendo. Gracias por pasar ✧</p>
+      </div>
+
+      <hr class="divider">
+      <!-- REDES: para añadir una, copia un <li> -->
+      <ul class="socials" aria-label="Redes sociales">
+        <li><a class="social" href="https://www.tiktok.com/@delilah.said.stella" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor">
+      <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+    </svg> @delilah.said.stella</a></li>
+        <li><a class="social" href="https://x.com/DelilahmadeStel" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    </svg> @DelilahmadeStel</a></li>
+        <li><a class="social" href="https://github.com/delilahstella-creator" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor">
+      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+    </svg> delilahstella-creator</a></li>
+        <li><a class="social" href="https://www.chess.com/member/Delilah_Stella" target="_blank" rel="noopener"><img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpQcwe5E.png" alt="" width="18" height="18"> Delilah_Stella</a></li>
+      </ul>
+
+      <hr class="divider">
+      <p class="side-title">★ stamps</p>
+      <div class="stamps" id="stamps"></div>
+    </aside>
+
+    <!-- ===== CONTENIDO ===== -->
+    <main class="content">
+
+      <nav class="panel toc" aria-label="Índice">
+        <h2>Contenido</h2>
+        <ol>
+          <li><a href="#gustos">Mis gustos</a></li>
+          <li><a href="#dibujos">Mis dibujos</a></li>
+          <li><a href="#proyectos">Mis proyectos</a></li>
+          <li><a href="#qa">Q&amp;A</a></li>
+        </ol>
+      </nav>
+
+      <section id="gustos" class="panel"><h2>Mis gustos</h2><div class="tastes" id="tastes"></div></section>
+
+      <section id="dibujos" class="panel">
+        <h2>Mis dibujos</h2>
+        <p class="hint">toca una imagen para verla en grande ✦</p>
+        <div class="gallery" id="gallery"></div>
+      </section>
+
+      <section id="proyectos" class="panel"><h2>Mis proyectos</h2><ul class="projects" id="projects"></ul></section>
+
+      <section id="qa" class="panel"><h2>Q&amp;A</h2><div id="qa-list"></div></section>
+
+      <footer>
+        <p>hecho con ♡ y código por Delilah · 2026</p>
+        <p>✧ gracias por visitar ✧</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- ===== REPRODUCTOR DE MÚSICA ===== -->
+  <div id="player" class="player" aria-hidden="true">
+    <button class="player-close" id="player-close" aria-label="Cerrar reproductor">×</button>
+    <div class="player-head">
+      <img id="player-cover" class="player-cover" alt="Carátula" hidden>
+      <div id="player-cover-fallback" class="player-cover player-cover-fallback" aria-hidden="true">♪</div>
+      <div class="player-meta">
+        <p class="player-title" id="player-title">cargando…</p>
+        <p class="player-artist" id="player-artist">—</p>
+      </div>
+    </div>
+    <input type="range" id="player-seek" class="player-seek" min="0" max="1000" step="1" value="0" aria-label="Posición de la canción">
+    <div class="player-times"><span id="player-current">0:00</span><span id="player-duration">0:00</span></div>
+    <div class="player-controls">
+      <button class="player-btn" id="player-prev" aria-label="Canción anterior" title="Anterior">⏮</button>
+      <button class="player-btn player-btn-main" id="player-play" aria-label="Reproducir" title="Reproducir">▶</button>
+      <button class="player-btn" id="player-next" aria-label="Siguiente canción" title="Siguiente">⏭</button>
+    </div>
+    <div class="player-volume-row">
+      <span aria-hidden="true">🔈</span>
+      <input type="range" id="player-volume" class="player-seek player-volume" min="0" max="100" step="1" value="50" aria-label="Volumen">
+    </div>
+    <p class="player-hint">♪ orden aleatorio · <span id="player-count">0</span> canciones</p>
+  </div>
+  <button id="music-toggle" class="music-toggle" aria-label="Abrir reproductor" title="Reproductor"><span aria-hidden="true">♪</span></button>
+  <audio id="bg-music" preload="metadata"></audio>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <button class="lb-btn lightbox-close" aria-label="Cerrar">×</button>
+    <button class="lb-btn lb-prev" aria-label="Imagen anterior">‹</button>
+    <img class="lightbox-img" alt="">
+    <p class="lightbox-cap"></p>
+    <button class="lb-btn lb-next" aria-label="Imagen siguiente">›</button>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- Lista de canciones de respaldo (se usa si no carga audio/playlist.json) -->
+  <script type="application/json" id="song-list">
+  {
+    "songs": [
+      "White Ball.mp3",
+      "puertas.mp3",
+      "Susumu Hirasawa - Parade(MP3_160K).mp3",
+      "05 - Cutie Mew Mew Magic.mp3",
+      "[Official] Celeste Original Soundtrack - 02 - First Steps(MP3_160K).mp3",
+      "32 - Reflection (Center of the Earth Mix).mp3"
+    ]
+  }
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
